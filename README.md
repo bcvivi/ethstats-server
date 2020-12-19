@@ -45,7 +45,7 @@ Start a node process and pass the websocket secret to it.
 ```bash
 WS_SECRET="asdf" npm start
 ```
-Find the interface at http://localhost:3000
+Find the interface at http://localhost:3001
 
 ## Proof-of-Work (Legacy)
 
