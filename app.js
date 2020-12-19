@@ -36,8 +36,8 @@ var reserved = require('./lib/utils/config').reserved;
 var fs = require('fs');
 let https = require("https");
 const httpsOption = {
-    key : fs.readFileSync("./https/xxxxxxxxxxxx.key"),  
-    cert: fs.readFileSync("./https/xxxxxxxxxxxx.pem")
+    key : fs.readFileSync("./https/key.key"),  
+    cert: fs.readFileSync("./https/pem.pem")
 }
 
 
