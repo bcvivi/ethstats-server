@@ -2,13 +2,13 @@ Ethereum Network Stats with POA and POW support
 ===============================================
 [![Build Status][travis-image]][travis-url] [![dependency status][dep-image]][dep-url]
 
-This is a visual interface for tracking proof-of-work ("mainnet") and proof-of-authority ("testnet") network status. It uses WebSockets to receive stats from running nodes and output them through an angular interface. It is the front-end implementation for [ethstats-client](https://github.com/goerli/ethstats-client).
+This is a visual interface for tracking proof-of-work ("mainnet") and proof-of-authority ("testnet") network status. It uses WebSockets to receive stats from running nodes and output them through an angular interface. It is the front-end implementation for [ethstats-client](https://github.com/bcvivi/ethstats-client).
 
 ## Proof-of-Authority
 ![Screenshot](src/images/screenshot-poa.png "Screenshot POA")
 
-* Demo: https://stats.goerli.net/
-* Demo: https://kotti.goerli.net/
+* Demo: https://stats.bcvivi.net/
+* Demo: https://kotti.bcvivi.net/
 
 #### Prerequisite
 * node
@@ -20,7 +20,7 @@ Make sure you have node.js and npm installed.
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/goerli/ethstats-server
+git clone https://github.com/bcvivi/ethstats-server
 cd ethstats-server
 npm install
 sudo npm install -g grunt-cli
@@ -62,7 +62,7 @@ WS_SECRET="asdf" npm start
 
 :-)
 
-[travis-image]: https://travis-ci.org/goerli/ethstats-server.svg
-[travis-url]: https://travis-ci.org/goerli/ethstats-server
-[dep-image]: https://david-dm.org/goerli/ethstats-server.svg
-[dep-url]: https://david-dm.org/goerli/ethstats-server
+[travis-image]: https://travis-ci.org/bcvivi/ethstats-server.svg
+[travis-url]: https://travis-ci.org/bcvivi/ethstats-server
+[dep-image]: https://david-dm.org/bcvivi/ethstats-server.svg
+[dep-url]: https://david-dm.org/bcvivi/ethstats-server

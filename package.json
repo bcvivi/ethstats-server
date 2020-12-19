@@ -35,11 +35,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/goerli/netstats-server.git"
+    "url": "https://github.com/bcvivi/netstats-server.git"
   },
-  "homepage": "https://github.com/goerli/netstats-server",
+  "homepage": "https://github.com/bcvivi/netstats-server",
   "bugs": {
-    "url": "https://github.com/goerli/netstats-server/issues"
+    "url": "https://github.com/bcvivi/netstats-server/issues"
   },
   "authors": [
     {
@@ -49,8 +49,8 @@
     },
     {
       "name": "Afri Schoedon",
-      "email": "goerli@5chdn.co",
-      "url": "https://github.com/goerli"
+      "email": "bcvivi@5chdn.co",
+      "url": "https://github.com/bcvivi"
     }
   ],
   "license": "LGPL-3.0",
