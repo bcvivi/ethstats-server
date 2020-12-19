@@ -32,14 +32,21 @@ else
 var banned   = require('./lib/utils/config').banned;
 var reserved = require('./lib/utils/config').reserved;
 
-// Init http server
-if( process.env.NODE_ENV !== 'production' )
-{
-	var app = require('./lib/express');
-	server = http.createServer(app);
+
+var fs = require('fs');
+let https = require("https");
+const httpsOption = {
+    key : fs.readFileSync("./https/xxxxxxxxxxxx.key"),  
+    cert: fs.readFileSync("./https/xxxxxxxxxxxx.pem")
 }
-else
-	server = http.createServer();
+
+
+
+// Init http server
+
+var app = require('./lib/express');
+server = https.createServer(httpsOption, app);
+
 
 // Init socket vars
 var Primus = require('primus');
